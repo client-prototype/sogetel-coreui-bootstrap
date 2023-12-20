@@ -281,17 +281,17 @@ address {
   white-space: nowrap;
   box-sizing: border-box;
   text-overflow: ellipsis;
-  min-width: 150px;
-  max-width: 150px;
+  min-width: 50px;
+/*  max-width: 150px;*/
   overflow: hidden;
 }
-
 .data-table td.alpha-num {
   text-align: right;
 }
 
 .data-table td.num {
   text-align: right !important;
+
 }
 
 .data-table td.alpha {
@@ -402,7 +402,7 @@ address {
 .datatable .show-option-none input[type=text] {
   display: none;
 }
-
+/*
 .datatable .list-indicator {
   border-left: 5px solid #e6e9ed !important;
 }
@@ -421,7 +421,7 @@ address {
 
 .datatable .list-indicator-danger {
   border-left: 5px solid #d43f3a !important;
-}
+}*/
 
 .title-table {
   margin: 30px 0 -5px !important;
@@ -512,4 +512,15 @@ address {
   top: -2px;
   position: absolute;
   margin: 0 auto;
+}
+
+th:first-child {
+    max-width: 20px !important;
+    background-color: none;
+    border: 0px;
+}
+
+tr td:first-child {
+    max-width: 20px !important;
+    white-space: nowrap;
 }

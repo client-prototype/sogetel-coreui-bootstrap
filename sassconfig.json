@@ -1,0 +1,78 @@
+[
+  {
+    "outputFile": "wwwroot/scss/helpers/_clearfix.css",
+    "inputFile": "wwwroot/scss/helpers/_clearfix.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/mixins/_alert.css",
+    "inputFile": "wwwroot/scss/mixins/_alert.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/utilities/_api.css",
+    "inputFile": "wwwroot/scss/utilities/_api.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/sidebar/_sidebar.css",
+    "inputFile": "wwwroot/scss/sidebar/_sidebar.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/_accordion.css",
+    "inputFile": "wwwroot/scss/_accordion.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/forms/_floating-labels.css",
+    "inputFile": "wwwroot/scss/forms/_floating-labels.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/mixins/_transition.css",
+    "inputFile": "wwwroot/scss/mixins/_transition.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/mixins/_resize.css",
+    "inputFile": "wwwroot/scss/mixins/_resize.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/sidebar/_sidebar-nav.css",
+    "inputFile": "wwwroot/scss/sidebar/_sidebar-nav.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/_variables.css",
+    "inputFile": "wwwroot/scss/_variables.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/_utilities.css",
+    "inputFile": "wwwroot/scss/_utilities.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/coreui-utilities.css",
+    "inputFile": "wwwroot/scss/coreui-utilities.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/coreui-utilities.rtl.css",
+    "inputFile": "wwwroot/scss/coreui-utilities.rtl.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/coreui-reboot.css",
+    "inputFile": "wwwroot/scss/coreui-reboot.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/coreui-reboot.rtl.css",
+    "inputFile": "wwwroot/scss/coreui-reboot.rtl.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/mixins/_container.css",
+    "inputFile": "wwwroot/scss/mixins/_container.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/mixins/_color-scheme.css",
+    "inputFile": "wwwroot/scss/mixins/_color-scheme.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/mixins/_deprecate.css",
+    "inputFile": "wwwroot/scss/mixins/_deprecate.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/mixins/_forms.css",
+    "inputFile": "wwwroot/scss/mixins/_forms.scss"
+  }
+]

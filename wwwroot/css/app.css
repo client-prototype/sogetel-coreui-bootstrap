@@ -21,16 +21,16 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 14px;
-    overflow-x: hidden;
+/*    overflow-x: hidden;*/
     overflow-y: auto;
     color: #2f3943;
     background-color: #f2f3f6;
 }
-div.dataTables_wrapper {
+/*div.dataTables_wrapper {
     width: auto;
     margin: 0 auto;
 }
-
+*/
 h1:focus {
     outline: none;
 }

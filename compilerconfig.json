@@ -26,5 +26,69 @@
   {
     "outputFile": "wwwroot/scss/coreui-grid.rtl.css",
     "inputFile": "wwwroot/scss/coreui-grid.rtl.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/utilities/_api.css",
+    "inputFile": "wwwroot/scss/utilities/_api.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/sidebar/_sidebar.css",
+    "inputFile": "wwwroot/scss/sidebar/_sidebar.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/forms/_floating-labels.css",
+    "inputFile": "wwwroot/scss/forms/_floating-labels.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/helpers/_clearfix.css",
+    "inputFile": "wwwroot/scss/helpers/_clearfix.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/mixins/_alert.css",
+    "inputFile": "wwwroot/scss/mixins/_alert.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/_accordion.css",
+    "inputFile": "wwwroot/scss/_accordion.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/coreui.css",
+    "inputFile": "wwwroot/scss/coreui.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/mixins/_visually-hidden.css",
+    "inputFile": "wwwroot/scss/mixins/_visually-hidden.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/helpers/_vr.css",
+    "inputFile": "wwwroot/scss/helpers/_vr.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/mixins/_grid.css",
+    "inputFile": "wwwroot/scss/mixins/_grid.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/_grid.css",
+    "inputFile": "wwwroot/scss/_grid.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/_mixins.css",
+    "inputFile": "wwwroot/scss/_mixins.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/_maps.css",
+    "inputFile": "wwwroot/scss/_maps.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/coreui-grid.css",
+    "inputFile": "wwwroot/scss/coreui-grid.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/mixins/_table-variants.css",
+    "inputFile": "wwwroot/scss/mixins/_table-variants.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/mixins/_utilities.css",
+    "inputFile": "wwwroot/scss/mixins/_utilities.scss"
   }
 ]

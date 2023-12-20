@@ -9,12 +9,16 @@
   <ItemGroup>
     <Compile Remove="coreui-pro-bootstrap\**" />
     <Compile Remove="datatables-test\**" />
+    <Compile Remove="wwwroot\scss\**" />
     <Content Remove="coreui-pro-bootstrap\**" />
     <Content Remove="datatables-test\**" />
+    <Content Remove="wwwroot\scss\**" />
     <EmbeddedResource Remove="coreui-pro-bootstrap\**" />
     <EmbeddedResource Remove="datatables-test\**" />
+    <EmbeddedResource Remove="wwwroot\scss\**" />
     <None Remove="coreui-pro-bootstrap\**" />
     <None Remove="datatables-test\**" />
+    <None Remove="wwwroot\scss\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,12 +28,14 @@
     <Content Remove="Pages\FetchData - Copy.razor" />
     <Content Remove="Pages\IndexOld.razor" />
     <Content Remove="Pages\Table.razor" />
+    <Content Remove="sassconfig.json" />
     <Content Remove="Shared\Table.razor" />
     <Content Remove="wwwroot\indexOLD.html" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="compilerconfig.json" />
+    <None Include="sassconfig.json" />
   </ItemGroup>
 
   <ItemGroup>

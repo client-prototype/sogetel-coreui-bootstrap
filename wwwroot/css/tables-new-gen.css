@@ -119,8 +119,8 @@ $font-size-h6: ceil(($font-size-base * 1.08));*/
   white-space: nowrap;
   box-sizing: border-box;
   text-overflow: ellipsis;
-  min-width: 150px;
-  max-width: 150px;
+/*  min-width: 150px;
+  max-width: 150px;*/
   overflow: hidden;
 }
 
@@ -157,23 +157,23 @@ $font-size-h6: ceil(($font-size-base * 1.08));*/
 }
 
 .data-table .list-indicator {
-  border-left: 10px solid #e6e9ed;
+  border-left: 8px solid #e6e9ed;
 }
 
 .data-table .list-indicator-unassigned {
-  border-left: 10px solid #b8c2cd;
+  border-left: 8px solid #b8c2cd;
 }
 
 .data-table .list-indicator-assigned {
-  border-left: 10px solid #00a59e;
+  border-left: 8px  solid #00a59e;
 }
 
 .data-table .list-indicator-alert {
-  border-left: 10px solid #ffc026;
+  border-left: 8px  solid #ffc026;
 }
 
 .data-table .list-indicator-danger {
-  border-left: 10px solid #d43f3a;
+  border-left: 8px solid #d43f3a;
 }
 
 .data-table .table-cell-indicator-assigned {
@@ -241,7 +241,7 @@ $font-size-h6: ceil(($font-size-base * 1.08));*/
   display: none;
 }
 
-.datatable .list-indicator {
+/*.datatable .list-indicator {
   border-left: 5px solid #e6e9ed !important;
 }
 
@@ -260,7 +260,7 @@ $font-size-h6: ceil(($font-size-base * 1.08));*/
 .datatable .list-indicator-danger {
   border-left: 5px solid #d43f3a !important;
 }
-
+*/
 .title-table {
   margin: 30px 0 -5px !important;
   padding-bottom: 5px;
@@ -272,4 +272,57 @@ table.table-calendar {
 
 table.table-calendar .calendar-date {
   font-size: 12px;
+}
+
+
+table {
+    table-layout: inherit;
+
+}
+
+td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100% !important;
+}
+
+
+tr td:first-child {
+    white-space: nowrap !important;
+    border: 0px !important;
+    background-color: #f2f3f6 !important;
+    border-right: 0px solid none !important;
+}
+/*
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}*/
+
+/*tr td:nth-child(1) {
+    width: fit-content;
+}*/
+/*th:first-child {
+    width: 1%;
+    background-color: none;
+    border: 0px;
+}
+tr td:first-child {
+    width: 1%;
+    white-space: nowrap;
+}*/
+
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 12px 10px;
+}
+
+
+div.dataTables_wrapper {
+    width: 800px;
+    margin: 0 auto;
 }
