@@ -1,0 +1,30 @@
+﻿[
+  {
+    "outputFile": "wwwroot/scss/coreui-utilities.css",
+    "inputFile": "wwwroot/scss/coreui-utilities.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/coreui-reboot.rtl.css",
+    "inputFile": "wwwroot/scss/coreui-reboot.rtl.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/coreui.rtl.css",
+    "inputFile": "wwwroot/scss/coreui.rtl.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/_variables.css",
+    "inputFile": "wwwroot/scss/_variables.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/coreui-utilities.rtl.css",
+    "inputFile": "wwwroot/scss/coreui-utilities.rtl.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/vendor/_rfs.css",
+    "inputFile": "wwwroot/scss/vendor/_rfs.scss"
+  },
+  {
+    "outputFile": "wwwroot/scss/coreui-grid.rtl.css",
+    "inputFile": "wwwroot/scss/coreui-grid.rtl.scss"
+  }
+]

@@ -8,12 +8,17 @@
 
   <ItemGroup>
     <Compile Remove="coreui-pro-bootstrap\**" />
+    <Compile Remove="datatables-test\**" />
     <Content Remove="coreui-pro-bootstrap\**" />
+    <Content Remove="datatables-test\**" />
     <EmbeddedResource Remove="coreui-pro-bootstrap\**" />
+    <EmbeddedResource Remove="datatables-test\**" />
     <None Remove="coreui-pro-bootstrap\**" />
+    <None Remove="datatables-test\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="compilerconfig.json" />
     <Content Remove="Pages\FetchData - Copy %282%29.razor" />
     <Content Remove="Pages\FetchData - Copy %283%29.razor" />
     <Content Remove="Pages\FetchData - Copy.razor" />
@@ -21,6 +26,10 @@
     <Content Remove="Pages\Table.razor" />
     <Content Remove="Shared\Table.razor" />
     <Content Remove="wwwroot\indexOLD.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="compilerconfig.json" />
   </ItemGroup>
 
   <ItemGroup>

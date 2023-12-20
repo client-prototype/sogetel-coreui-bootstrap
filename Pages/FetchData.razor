@@ -7,81 +7,163 @@
 
 
 
-<table class="table data-table dataTable ">
+@* <div class="dataTables_scrollBody" style="position: relative; overflow: auto; width: 100%;">
+    <table id="example-4" class="display data-table datatable dataTable no-footer" style="width: 100%;" role="grid">
         <thead>
-        <tr>
+            <tr role="row" style="height: 0px;"><th class="sorting_asc" aria-controls="example-4" rowspan="1" colspan="1" style="width: 100.031px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-label="Email: activate to sort column descending" aria-sort="ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Email</div></div></th><th class="sorting" aria-controls="example-4" rowspan="1" colspan="1" style="width: 37.4219px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-label="Last Name: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Last Name</div></div></th><th class="sorting" aria-controls="example-4" rowspan="1" colspan="1" style="width: 37.4219px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-label="Name: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Name</div></div></th><th class="sorting" aria-controls="example-4" rowspan="1" colspan="1" style="width: 163.406px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-label="Invite: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Invite</div></div></th><th class="sorting" aria-controls="example-4" rowspan="1" colspan="1" style="width: 42.0938px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-label="Date: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Date</div></div></th><th class="sorting" aria-controls="example-4" rowspan="1" colspan="1" style="width: 40.5469px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-label="Statue: activate to sort column ascending"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;">Statue</div></div></th><th data-sortable="false" class="disable-option sorting_disabled" rowspan="1" colspan="1" style="width: 30.0781px; padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px;" aria-label=""><div class="dataTables_sizing" style="height: 0px; overflow: hidden;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;"></div></div></th></tr>
 
-            <th>
-            </th>
-            <th class="">
-                <p>Nom complet</p>
-            </th>
-            <th>
-                <p>Numéro d'employé</p>
-            </th>
-            <th>
-                <p>Superviseur</p>
-            </th>
-            <th>
-                <p>Parrain</p>
-            </th>
-            <th>
-                <p>Région</p>
-            </th>
-            <th>
-                <p>Organisation</p>
-            </th>
-            <th>
-                <p>Actif</p>
-            </th>
-        </tr>
+            <tr role="row" style="height: 0px;"><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 112.031px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;"><input type="text" placeholder="Search " class="column_search"></div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 49.4219px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;"><input type="text" placeholder="Search " class="column_search"></div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 49.4219px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;"><input type="text" placeholder="Search " class="column_search"></div></th><th class="disable-option" rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 175.406px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;"><input type="text" placeholder="Search " class="column_search"></div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 54.0938px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;"><input type="text" placeholder="Search " class="column_search"></div></th><th rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 52.5469px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;"><input type="text" placeholder="Search " class="column_search"></div></th><th class="show-option-none" rowspan="1" colspan="1" style="padding-top: 0px; padding-bottom: 0px; border-top-width: 0px; border-bottom-width: 0px; height: 0px; width: 30.0781px;"><div class="dataTables_sizing" style="height: 0px; overflow: hidden;"><input type="text" placeholder="Search " class="column_search"></div></th></tr>
+        </thead>
+
+        <tbody>
+
+
+
+
+
+
+
+
+
+            <tr role="row" class="odd">
+                <td class="list-indicator-alert sorting_1">name.verylongnamenoreply.ca</td>
+                <td>Last Name</td>
+                <td>Name</td>
+                <td>name.verylongnamenoreply.ca</td>
+                <td>2011/04/25</td>
+                <td>$320,800</td>
+                <td class="btn-cell">
+                    <button type="button" class="btn btn-small-action-table text-info-color">
+                        <i class="material-icons">send</i>
+                    </button>
+                </td>
+            </tr>
+            <tr role="row" class="even">
+                <td class="list-indicator-danger sorting_1">name.verylongnamenoreply.ca</td>
+                <td>Last Name</td>
+                <td>Name</td>
+                <td>name.verylongnamenoreply.ca</td>
+                <td>2011/04/25</td>
+                <td>$320,800</td>
+                <td class="btn-cell">
+                    <button type="button" class="btn btn-small-action-table text-info-color">
+                        <i class="material-icons">send</i>
+                    </button>
+                </td>
+            </tr>
+            <tr role="row" class="odd">
+                <td class="list-indicator-unassigned sorting_1">name.verylongnamenoreply01.ca</td>
+                <td>Last Name</td>
+                <td>Name</td>
+                <td>name.verylongnamenoreply.ca</td>
+                <td>2011/04/25</td>
+                <td>$320,800</td>
+                <td class="btn-cell">
+                    <button type="button" class="btn btn-small-action-table text-info-color">
+                        <i class="material-icons">send</i>
+                    </button>
+                </td>
+            </tr>
+            <tr role="row" class="even">
+                <td class="list-indicator-assigned sorting_1">testname.verylongnamenoreply.ca</td>
+                <td>Last Name</td>
+                <td>Name</td>
+                <td>name.verylongnamenoreply.ca</td>
+                <td>2011/04/25</td>
+                <td>$320,800</td>
+                <td class="btn-cell">
+                    <button type="button" class="btn btn-small-action-table text-info-color">
+                        <i class="material-icons">send</i>
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div> *@
+
+
+
+
+<div class=" dataTables_wrapper no-footer dataTables_scrollBody" >
+
+
+
+    <table class="display data-table datatable dataTable no-footer">
+        <thead>
+            <tr>
+
+                <th>
+                </th>
+                <th class="">
+                    <p>Nom complet</p>
+                </th>
+                <th>
+                    <p>Numéro d'employé</p>
+                </th>
+                <th>
+                    <p>Superviseur</p>
+                </th>
+                <th>
+                    <p>Parrain</p>
+                </th>
+                <th>
+                    <p>Région</p>
+                </th>
+                <th>
+                    <p>Organisation</p>
+                </th>
+                <th>
+                    <p>Actif</p>
+                </th>
+            </tr>
         </thead>
         <tbody>
 
-                <tr>
-                    <td>
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                    </td>
-                    <td class="list-indicator-assigned">
-                        <p><a href="">Admin Principal</a></p>
-                    </td>
-                    <td>
-                        <p>0000</p>
-                    </td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>
-                        <p>OrganiTest_0323</p>
-                    </td>
-                </tr>
+            <tr>
+                <td>
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                </td>
+                <td class="list-indicator-assigned">
+                    <p><a href="">Admin Principal</a></p>
+                </td>
+                <td>
+                    <p>0000</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <p>OrganiTest_0323</p>
+                </td>
+            </tr>
 
 
-        <tr>
-            <td>
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-            </td>
-            <td class="list-indicator-assigned">
-                <p><a href="">Admin Principal</a></p>
-            </td>
-            <td>
-                <p>0000</p>
-            </td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>
-                <p>OrganiTest_0323</p>
-            </td>
-        </tr>
+            <tr>
+                <td>
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                </td>
+                <td class="list-indicator-assigned">
+                    <p><a href="">Admin Principal</a></p>
+                </td>
+                <td>
+                    <p>0000</p>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <p>OrganiTest_0323</p>
+                </td>
+            </tr>
 
 
         </tbody>
     </table>
 
 
+</div>
 @code {
 
 }

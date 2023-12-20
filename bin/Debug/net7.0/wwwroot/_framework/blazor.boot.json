@@ -1,7 +1,7 @@
 {
   "entryAssembly": "sogetel-coreui-bootstrap",
   "resources": {
-    "hash": "sha256-RVLRfuqZ1j1lPvCn3hMtvyhsFRu3UY9o/Zk9MEX7h1Q=",
+    "hash": "sha256-RUc0FlAwzYQ0kmKsiPDgmK8yT4Cj0zuLjGIcszsEQCA=",
     "runtime": {
       "dotnet.7.0.14.yr81b01kfw.js": "sha256-YWGUknGRzP/fgO6YjvCJKPVQNZAPEd6ll+rHfQEIW+I=",
       "dotnet.timezones.blat": "sha256-t5xviiOQTfAsF0UDhmcyalKiaehUmf/sqJl97tmPM0M=",
@@ -202,10 +202,10 @@
       "mscorlib.dll": "sha256-YcsJInaT/kw3Vrm+SESegPxvT/Lr9RE6rE/KnxWIIc0=",
       "netstandard.dll": "sha256-TztlSRjADgiEABbiAMdWZpHrUVd8wnRtQRAvlwmRP/4=",
       "System.Private.CoreLib.dll": "sha256-BAhrZ8Zg3cJKQipxdzqQo+9jtPkOkRx1ou3oIhDohtk=",
-      "sogetel-coreui-bootstrap.dll": "sha256-MdT0ym5yZ6ufdWlGHU97VoGAERKWhh5nlc8GfPQ/18k="
+      "sogetel-coreui-bootstrap.dll": "sha256-4JtmTg22EqC+F9dgB+1Gu80UlKvCrFwsnwwbRbQeqQE="
     },
     "pdb": {
-      "sogetel-coreui-bootstrap.pdb": "sha256-9FKFuz/usVRDugSmKE9hX/EQjS45TSuO/qwe3MV3hlE="
+      "sogetel-coreui-bootstrap.pdb": "sha256-I8YwuN6Eddez5h57guTa4rLbteKfohKe6AAFF4Oyea4="
     },
     "runtimeAssets": {
       "dotnet.wasm": {
