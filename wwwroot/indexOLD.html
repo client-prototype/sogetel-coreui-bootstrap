@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />-->
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>sogetel-coreui-bootstrap</title>
+    <base href="/" />
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="sogetel-coreui-bootstrap.styles.css" rel="stylesheet" />
+
+    <link href="css/app.css" rel="stylesheet" />
+    <!--<link href="css/style.css" rel="stylesheet" />-->
+    <!--<link href="sogetel-coreui-bootstrap.styles.css" rel="stylesheet" />
+    <link href="vendors/datatables.net-bs4/css/dataTables.bootstrap4.css" rel="stylesheet" />-->
+    <link href="css/table.css" rel="stylesheet" />
+    <link href="css/datatables.css" rel="stylesheet" />
+    <link href="css/table-timeline.css" rel="stylesheet" />
+    <link href="css/tables-new-gen.css" rel="stylesheet" />
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap4.min.js"></script>
+
+
+    <!-- Vendors styles-->
+    <!--<link rel="stylesheet" href="vendors/simplebar/css/simplebar.css">-->
+
+    <style>
+        body {
+            /*            margin: 0;
+            font-family: var(--cui-body-font-family);
+            font-size: var(--cui-body-font-size);
+            font-weight: var(--cui-body-font-weight);
+            line-height: var(--cui-body-line-height);
+            color: var(--cui-body-color);
+            text-align: var(--cui-body-text-align);
+            background-color: var(--cui-body-bg);
+            -webkit-text-size-adjust: 100%;
+            -webkit-tap-highlight-color: rgba(8, 10, 12, 0);
+            background-color: var(--cui-tertiary-bg);
+            overflow: -moz-scrollbars-vertical;*/
+            /*            overflow-x: hidden;
+            overflow-y: auto;*/
+        }
+        /*        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            border: 1px solid #ddd;
+        }*/
+        /*        dataTables_wrapper {
+            max-width: 800px !important;
+            margin: 0 auto;
+        }*/
+    </style>
+
+
+</head>
+
+
+<body>
+    <div id="app">
+        <svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+
+
+
+    <!--<script src="js/calendar.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/color-modes.js"></script>
+    <script src="js/colors.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/datatables.js"></script>
+    <script src="js/google-maps.js"></script>
+    <script src="js/i18next.js"></script>
+    <script src="js/loading-buttons.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/multi-select.js"></script>
+    <script src="js/popovers.js"></script>
+    <script src="js/toasts.js"></script>
+    <script src="js/tooltips.js"></script>
+    <script src="js/widgets.js"></script>-->
+
+    <script src="vendors/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
+
+    <script src="vendors/datatables.net/js/jquery.dataTables.js"></script>
+
+
+    <script src="vendors/@coreui/utils/js/index.js"></script>
+
+    <script>
+
+        $('#test').DataTable({
+            paging: false,
+            scrollY: 400
+        });
+    </script>
+    <script>
+        var table = $('#example-4').DataTable();
+
+        new $.fn.dataTable.FixedHeader(table, {
+            paging: false,
+            scrollY: 400
+        });
+
+
+    </script>
+
+
+    <!--<script>
+        window.addEventListener('load', () => {
+            document.body.style.backgroundColor = 'red'
+        });
+    </script>-->
+
+
+    <script src="_framework/blazor.webassembly.js"></script>
+
+</body>
++
+</html>

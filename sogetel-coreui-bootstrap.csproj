@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="coreui-pro-bootstrap\**" />
+    <Content Remove="coreui-pro-bootstrap\**" />
+    <EmbeddedResource Remove="coreui-pro-bootstrap\**" />
+    <None Remove="coreui-pro-bootstrap\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\FetchData - Copy %282%29.razor" />
+    <Content Remove="Pages\FetchData - Copy %283%29.razor" />
+    <Content Remove="Pages\FetchData - Copy.razor" />
+    <Content Remove="Pages\IndexOld.razor" />
+    <Content Remove="Pages\Table.razor" />
+    <Content Remove="Shared\Table.razor" />
+    <Content Remove="wwwroot\indexOLD.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="7.0.13" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="7.0.13" PrivateAssets="all" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,406 @@
+﻿@page "/fetchdata"
+@inject HttpClient Http
+
+<PageTitle>Weather forecast</PageTitle>
+
+<h1>Weather forecast</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+@* 
+
+<table id="" class="table" style=" ">
+    <thead>
+        <tr>
+            <th>
+                <p></p>
+            </th>
+            <th class="">
+                <p>Nom complet</p>
+            </th>
+            <th>
+                <p>Numéro d'employé</p>
+            </th>
+            <th>
+                <p>Superviseur</p>
+            </th>
+            <th>
+                <p>Parrain</p>
+            </th>
+            <th>
+                <p>Région</p>
+            </th>
+            <th>
+                <p>Organisation</p>
+            </th>
+            <th>
+                <p></p>
+            </th>
+            <th>
+                <p>Actif</p>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="list-indicator-assigned">
+                <p><a href="/ProfileMgmtList/ProfileMgmt/-1/">Admin Principal</a></p>
+            </td>
+            <td>
+                <p>0000</p>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="list-indicator-danger">
+                <p><a href="/ProfileMgmtList/ProfileMgmt/11/">Philippe Chouinard-Gaouette</a></p>
+            </td>
+            <td>
+                <p>123456</p>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="list-indicator-unassigned">
+                <p><a href="/ProfileMgmtList/ProfileMgmt/18/">Christophe Bélanger III</a></p>
+            </td>
+            <td>
+                <p>NONE</p>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <p>CGI</p>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="list-indicator-assigned">
+                <p><a href="/ProfileMgmtList/ProfileMgmt/24/">Éric Boisvert</a></p>
+            </td>
+            <td>
+                <p>0303030303</p>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="list-indicator-assigned">
+                <p><a href="/ProfileMgmtList/ProfileMgmt/25/">test QA20211202</a></p>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="list-indicator-assigned">
+                <p><a href="/ProfileMgmtList/ProfileMgmt/27/">François Roussel</a></p>
+            </td>
+            <td>
+                <p>575</p>
+            </td>
+            <td>
+                <p>Éric Boisvert</p>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="list-indicator-assigned">
+                <p><a href="/ProfileMgmtList/ProfileMgmt/31/">johpon Employé</a></p>
+            </td>
+            <td>
+                <p>296</p>
+            </td>
+            <td>
+                <p>johpon Employé</p>
+            </td>
+            <td></td>
+            <td></td>
+            <td>
+                <p>OrganiTest_0323</p>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="list-indicator-alert">
+                <p><a href="/ProfileMgmtList/ProfileMgmt/42/">jpc Employee0111</a></p>
+            </td>
+            <td>
+                <p>789</p>
+            </td>
+            <td>
+                <p>JohPon Employé_0228</p>
+            </td>
+            <td>
+                <p>JohPon Employé_0228</p>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+
+        <tr>
+            <td class="list-indicator-assigned">
+                <p><a href="/ProfileMgmtList/ProfileMgmt/-1/">Admin Principal</a></p>
+            </td>
+            <td>
+                <p>0000</p>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="list-indicator-danger">
+                <p><a href="/ProfileMgmtList/ProfileMgmt/11/">Philippe Chouinard-Gaouette</a></p>
+            </td>
+            <td>
+                <p>123456</p>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="list-indicator-unassigned">
+                <p><a href="/ProfileMgmtList/ProfileMgmt/18/">Christophe Bélanger III</a></p>
+            </td>
+            <td>
+                <p>NONE</p>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <p>CGI</p>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="list-indicator-assigned">
+                <p><a href="/ProfileMgmtList/ProfileMgmt/24/">Éric Boisvert</a></p>
+            </td>
+            <td>
+                <p>0325032503030303030303</p>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="list-indicator-assigned">
+                <p><a href="/ProfileMgmtList/ProfileMgmt/25/">test QA20211202</a></p>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="list-indicator-assigned">
+                <p><a href="/ProfileMgmtList/ProfileMgmt/27/">François Roussel</a></p>
+            </td>
+            <td>
+                <p>575</p>
+            </td>
+            <td>
+                <p>Éric Boisvert</p>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="list-indicator-assigned">
+                <p><a href="/">johpon Employé</a></p>
+            </td>
+            <td>
+                <p>296</p>
+            </td>
+            <td>
+                <p>johpon Employé</p>
+            </td>
+            <td></td>
+            <td></td>
+            <td>
+                <p>OrganiTest_0323</p>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="list-indicator-alert">
+                <p><a href="/ProfileMgmtList/ProfileMgmt/42/">jpc Employee0111</a></p>
+            </td>
+            <td>
+                <p>789</p>
+            </td>
+            <td>
+                <p>JohPon Employé_0228</p>
+            </td>
+            <td>
+                <p>JohPon Employé_0228</p>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+<tbody>
+
+
+    <tr class=" datatable-new btn-cell" role="row">
+        <td>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+
+                </label>
+            </div>
+        </td>
+        <td class="list-indicator-alert sorting_1">name.verylongnamenoreply.ca</td>
+        <td>Last Name</td>
+        <td>Name</td>
+        <td>name.verylongnamenoreply.ca</td>
+        <td>2011/04/25</td>
+        <td>$320,800</td>
+        <td class="btn-cell"><button class="btn btn-small-action-table text-info-color" type="button"><i class="material-icons">send</i></button></td>
+    </tr>
+    <tr class="even" role="row">
+        <td>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+
+                </label>
+            </div>
+        </td>
+        <td class="list-indicator-danger sorting_1">name.verylongnamenoreply.ca</td>
+        <td>Last Name</td>
+        <td>Last Name</td>
+        <td>Name</td>
+        <td>name.verylongnamenoreply.ca</td>
+        <td>2011/04/25</td>
+        <td>$320,800</td>
+        <td class="btn-cell"><button class="btn btn-small-action-table text-info-color" type="button"><i class="material-icons">send</i></button></td>
+    </tr>
+    <tr class="odd" role="row">
+        <td>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+
+                </label>
+            </div>
+        </td>
+        <td class="list-indicator-unassigned sorting_1">name.verylongnamenoreply01.ca</td>
+        <td>Last Name</td>
+        <td>Last Name</td>
+        <td>Name</td>
+        <td>name.verylongnamenoreply.ca</td>
+        <td>2011/04/25</td>
+        <td>$320,800</td>
+        <td class="btn-cell"><button class="btn btn-small-action-table text-info-color" type="button"><i class="material-icons">send</i></button></td>
+    </tr>
+    <tr class="even" role="row">
+        <td>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+
+                </label>
+            </div>
+        </td>
+        <td class="list-indicator-assigned sorting_1">testname.verylongnamenoreply.ca</td>
+        <td>Last Name</td>
+        <td>Last Name</td>
+        <td>Name</td>
+        <td>name.verylongnamenoreply.ca</td>
+        <td>2011/04/25</td>
+        <td>$320,800</td>
+        <td class="btn-cell"><button class="btn btn-small-action-table text-info-color" type="button"><i class="material-icons">send</i></button></td>
+    </tr>
+</tbody>
+ *@
+
+
+
+@if (forecasts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Temp. (C)</th>
+                <th>Temp. (F)</th>
+                <th>Summary</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in forecasts)
+            {
+                <tr>
+                    <td>@forecast.Date.ToShortDateString()</td>
+                    <td>@forecast.TemperatureC</td>
+                    <td>@forecast.TemperatureF</td>
+                    <td>@forecast.Summary</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private WeatherForecast[]? forecasts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+    }
+
+    public class WeatherForecast
+    {
+        public DateOnly Date { get; set; }
+
+        public int TemperatureC { get; set; }
+
+        public string? Summary { get; set; }
+
+        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+    }
+}

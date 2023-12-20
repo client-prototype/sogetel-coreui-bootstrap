@@ -1,0 +1,1 @@
+C:\Users\Thomas PIGUET\OneDrive - REACTIS\Desktop\sogetel-coreui-bootstrap\Apps\sogetel-coreui-bootstrap\sogetel-coreui-bootstrap\obj\Release\net7.0\browser-wasm\PubTmp\Out\web.config

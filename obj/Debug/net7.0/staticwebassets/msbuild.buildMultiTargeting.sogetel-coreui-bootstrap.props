@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\sogetel-coreui-bootstrap.props" />
+</Project>
