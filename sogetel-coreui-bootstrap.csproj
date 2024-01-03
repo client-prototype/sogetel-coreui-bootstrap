@@ -10,15 +10,19 @@
     <Compile Remove="coreui-pro-bootstrap\**" />
     <Compile Remove="datatables-test\**" />
     <Compile Remove="wwwroot\scss\**" />
+    <Compile Remove="wwwroot\vendors\**" />
     <Content Remove="coreui-pro-bootstrap\**" />
     <Content Remove="datatables-test\**" />
     <Content Remove="wwwroot\scss\**" />
+    <Content Remove="wwwroot\vendors\**" />
     <EmbeddedResource Remove="coreui-pro-bootstrap\**" />
     <EmbeddedResource Remove="datatables-test\**" />
     <EmbeddedResource Remove="wwwroot\scss\**" />
+    <EmbeddedResource Remove="wwwroot\vendors\**" />
     <None Remove="coreui-pro-bootstrap\**" />
     <None Remove="datatables-test\**" />
     <None Remove="wwwroot\scss\**" />
+    <None Remove="wwwroot\vendors\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -29,8 +33,12 @@
     <Content Remove="Pages\IndexOld.razor" />
     <Content Remove="Pages\Table.razor" />
     <Content Remove="sassconfig.json" />
-    <Content Remove="Shared\Table.razor" />
+    <Content Remove="Shared\NavMenu - Copy.razor" />
     <Content Remove="wwwroot\indexOLD.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Shared\NavMenu - Copy.razor.css" />
   </ItemGroup>
 
   <ItemGroup>
