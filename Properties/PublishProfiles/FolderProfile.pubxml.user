@@ -3,4 +3,9 @@
 https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Thomas PIGUET\OneDrive - REACTIS\Desktop\New folder (7)</_PublishTargetUrl>
+    <History>True|2024-01-03T16:06:13.4327706Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
 </Project>
