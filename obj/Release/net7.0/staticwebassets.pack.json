@@ -1,79 +1,267 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\Apps\\sogetel-coreui-bootstrap\\bin\\Release\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\bin\\Release\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\Apps\\sogetel-coreui-bootstrap\\obj\\Release\\net7.0\\compressed\\6paqqcjfj3.gz",
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\obj\\Release\\net7.0\\compressed\\6paqqcjfj3.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\Apps\\sogetel-coreui-bootstrap\\obj\\Release\\net7.0\\scopedcss\\bundle\\sogetel-coreui-bootstrap.styles.css",
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\obj\\Release\\net7.0\\scopedcss\\bundle\\sogetel-coreui-bootstrap.styles.css",
       "PackagePath": "staticwebassets\\sogetel-coreui-bootstrap.styles.css"
     },
     {
-      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\Apps\\sogetel-coreui-bootstrap\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\Apps\\sogetel-coreui-bootstrap\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\Apps\\sogetel-coreui-bootstrap\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\Apps\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\datatables.css",
+      "PackagePath": "staticwebassets\\css\\datatables.css"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\examples.css",
+      "PackagePath": "staticwebassets\\css\\examples.css"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\examples.css.map",
+      "PackagePath": "staticwebassets\\css\\examples.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\examples.min.css",
+      "PackagePath": "staticwebassets\\css\\examples.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\examples.min.css.map",
+      "PackagePath": "staticwebassets\\css\\examples.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\Apps\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\Apps\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\README.md",
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\README.md",
       "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
     },
     {
-      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\Apps\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\Apps\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\font\\fa-regular-400.b041b1fa4fe241b23445.woff2",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fa-regular-400.b041b1fa4fe241b23445.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\Apps\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\Apps\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\Apps\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\Apps\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\Apps\\sogetel-coreui-bootstrap\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\css\\style.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\style.min.css.map",
+      "PackagePath": "staticwebassets\\css\\style.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\table-timeline.css",
+      "PackagePath": "staticwebassets\\css\\table-timeline.css"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\tables-new-gen.css",
+      "PackagePath": "staticwebassets\\css\\tables-new-gen.css"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\utility.css",
+      "PackagePath": "staticwebassets\\css\\utility.css"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\vendors\\simplebar.css",
+      "PackagePath": "staticwebassets\\css\\vendors\\simplebar.css"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\vendors\\simplebar.css.map",
+      "PackagePath": "staticwebassets\\css\\vendors\\simplebar.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\Apps\\sogetel-coreui-bootstrap\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\Apps\\sogetel-coreui-bootstrap\\wwwroot\\index.html",
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\Apps\\sogetel-coreui-bootstrap\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\calendar.js",
+      "PackagePath": "staticwebassets\\js\\calendar.js"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\calendar.js.map",
+      "PackagePath": "staticwebassets\\js\\calendar.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\charts.js",
+      "PackagePath": "staticwebassets\\js\\charts.js"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\charts.js.map",
+      "PackagePath": "staticwebassets\\js\\charts.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\color-modes.js",
+      "PackagePath": "staticwebassets\\js\\color-modes.js"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\color-modes.js.map",
+      "PackagePath": "staticwebassets\\js\\color-modes.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\colors.js",
+      "PackagePath": "staticwebassets\\js\\colors.js"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\colors.js.map",
+      "PackagePath": "staticwebassets\\js\\colors.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\config.js",
+      "PackagePath": "staticwebassets\\js\\config.js"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\config.js.map",
+      "PackagePath": "staticwebassets\\js\\config.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\datatables.js",
+      "PackagePath": "staticwebassets\\js\\datatables.js"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\datatables.js.map",
+      "PackagePath": "staticwebassets\\js\\datatables.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\google-maps.js",
+      "PackagePath": "staticwebassets\\js\\google-maps.js"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\google-maps.js.map",
+      "PackagePath": "staticwebassets\\js\\google-maps.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\i18next.js",
+      "PackagePath": "staticwebassets\\js\\i18next.js"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\i18next.js.map",
+      "PackagePath": "staticwebassets\\js\\i18next.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\loading-buttons.js",
+      "PackagePath": "staticwebassets\\js\\loading-buttons.js"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\loading-buttons.js.map",
+      "PackagePath": "staticwebassets\\js\\loading-buttons.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\main.js.map",
+      "PackagePath": "staticwebassets\\js\\main.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\mainqa.js",
+      "PackagePath": "staticwebassets\\js\\mainqa.js"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\multi-select.js",
+      "PackagePath": "staticwebassets\\js\\multi-select.js"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\multi-select.js.map",
+      "PackagePath": "staticwebassets\\js\\multi-select.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\popovers.js",
+      "PackagePath": "staticwebassets\\js\\popovers.js"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\popovers.js.map",
+      "PackagePath": "staticwebassets\\js\\popovers.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\toasts.js",
+      "PackagePath": "staticwebassets\\js\\toasts.js"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\toasts.js.map",
+      "PackagePath": "staticwebassets\\js\\toasts.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\tooltips.js",
+      "PackagePath": "staticwebassets\\js\\tooltips.js"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\tooltips.js.map",
+      "PackagePath": "staticwebassets\\js\\tooltips.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\widgets.js",
+      "PackagePath": "staticwebassets\\js\\widgets.js"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\widgets.js.map",
+      "PackagePath": "staticwebassets\\js\\widgets.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {

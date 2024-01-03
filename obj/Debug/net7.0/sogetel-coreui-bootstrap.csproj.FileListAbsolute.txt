@@ -2271,7 +2271,6 @@ C:\Users\Thomas PIGUET\OneDrive - REACTIS\Documents\GitHub\sogetel-coreui-bootst
 C:\Users\Thomas PIGUET\OneDrive - REACTIS\Documents\GitHub\sogetel-coreui-bootstrap\sogetel-coreui-bootstrap\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.sogetel-coreui-bootstrap.props
 C:\Users\Thomas PIGUET\OneDrive - REACTIS\Documents\GitHub\sogetel-coreui-bootstrap\sogetel-coreui-bootstrap\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Users\Thomas PIGUET\OneDrive - REACTIS\Documents\GitHub\sogetel-coreui-bootstrap\sogetel-coreui-bootstrap\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
-C:\Users\Thomas PIGUET\OneDrive - REACTIS\Documents\GitHub\sogetel-coreui-bootstrap\sogetel-coreui-bootstrap\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\Thomas PIGUET\OneDrive - REACTIS\Documents\GitHub\sogetel-coreui-bootstrap\sogetel-coreui-bootstrap\obj\Debug\net7.0\scopedcss\bundle\sogetel-coreui-bootstrap.styles.css
 C:\Users\Thomas PIGUET\OneDrive - REACTIS\Documents\GitHub\sogetel-coreui-bootstrap\sogetel-coreui-bootstrap\obj\Debug\net7.0\scopedcss\projectbundle\sogetel-coreui-bootstrap.bundle.scp.css
 C:\Users\Thomas PIGUET\OneDrive - REACTIS\Documents\GitHub\sogetel-coreui-bootstrap\sogetel-coreui-bootstrap\obj\Debug\net7.0\compressed\6paqqcjfj3.gz

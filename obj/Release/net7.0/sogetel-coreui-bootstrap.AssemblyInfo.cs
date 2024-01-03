@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sogetel-coreui-bootstrap")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ecbf72df2b43be9b8708655fda319e45c888c9b")]
 [assembly: System.Reflection.AssemblyProductAttribute("sogetel-coreui-bootstrap")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sogetel-coreui-bootstrap")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

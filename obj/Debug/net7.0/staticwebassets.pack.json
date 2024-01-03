@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\css\\examples.min.css.map"
     },
     {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
       "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },

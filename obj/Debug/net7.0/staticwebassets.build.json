@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XR9wMtowVo9beRtWTY34Rxf3v8swhCNFVWtYmUfop4Q=",
+  "Hash": "sdjDg1fMO0jzowBISLmZaV7eUGTqh1lVOWRBzmbNu7Y=",
   "Source": "sogetel-coreui-bootstrap",
   "BasePath": "/",
   "Mode": "Root",
@@ -7843,6 +7843,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\examples.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\main.css",
+      "SourceId": "sogetel-coreui-bootstrap",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/main.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\main.css"
     },
     {
       "Identity": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",

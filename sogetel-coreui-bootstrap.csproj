@@ -34,11 +34,14 @@
     <Content Remove="Pages\Table.razor" />
     <Content Remove="sassconfig.json" />
     <Content Remove="Shared\NavMenu - Copy.razor" />
+    <Content Remove="Shared\NavMenu000.razor" />
     <Content Remove="wwwroot\indexOLD.html" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="Shared\NavMenu - Copy.razor.css" />
+    <None Remove="Shared\NavMenu.razor.css" />
+    <None Remove="Shared\NavMenuGOOD.razor.css" />
   </ItemGroup>
 
   <ItemGroup>
