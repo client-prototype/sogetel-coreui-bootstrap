@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\font\\fa-regular-400.b041b1fa4fe241b23445.woff2",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fa-regular-400.b041b1fa4fe241b23445.woff2"
+    },
+    {
       "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
@@ -211,6 +215,10 @@
     {
       "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\main.js.map",
       "PackagePath": "staticwebassets\\js\\main.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\mainqa.js",
+      "PackagePath": "staticwebassets\\js\\mainqa.js"
     },
     {
       "Id": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\multi-select.js",

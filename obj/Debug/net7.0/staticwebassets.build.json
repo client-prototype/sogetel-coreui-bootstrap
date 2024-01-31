@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sdjDg1fMO0jzowBISLmZaV7eUGTqh1lVOWRBzmbNu7Y=",
+  "Hash": "npwJvntRW6ISxCPiReFEcy4ri5pjraIvIb5dZsgWhzA=",
   "Source": "sogetel-coreui-bootstrap",
   "BasePath": "/",
   "Mode": "Root",
@@ -7883,6 +7883,25 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
+      "Identity": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\font\\fa-regular-400.b041b1fa4fe241b23445.woff2",
+      "SourceId": "sogetel-coreui-bootstrap",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/font/fa-regular-400.b041b1fa4fe241b23445.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fa-regular-400.b041b1fa4fe241b23445.woff2"
+    },
+    {
       "Identity": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "sogetel-coreui-bootstrap",
       "SourceType": "Discovered",
@@ -8641,6 +8660,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\main.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\mainqa.js",
+      "SourceId": "sogetel-coreui-bootstrap",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "js/mainqa.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\mainqa.js"
     },
     {
       "Identity": "C:\\Users\\Thomas PIGUET\\OneDrive - REACTIS\\Documents\\GitHub\\sogetel-coreui-bootstrap\\sogetel-coreui-bootstrap\\wwwroot\\js\\multi-select.js",
